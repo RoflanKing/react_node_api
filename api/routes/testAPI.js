@@ -2,15 +2,15 @@ const express = require("express")
 const app = express()
 const axios = require("axios")
 const parser = require("xml2json")
-const NamecheapApiUser = "FedorFish"
-const NamecheapUserName = "FedorFish"
-const NamecheapApiKey = "0da66433d86a4c57a00b9c4a29a810c4"
-const NamecheapClientIp = "62.80.180.252"
-const NamecheapSetNS = "namecheap.domains.dns.setCustom"
+const NamecheapApiUser = "****"
+const NamecheapUserName = "****"
+const NamecheapApiKey = "****"
+const NamecheapClientIp = "****"
+const NamecheapSetNS = "****"
 const NamecheapNS = "ace.ns.cloudflare.com,liv.ns.cloudflare.com"
-const CloudflareId = "d837e6a2b7ddcf8fb24dedb5e0f4b913"
-const CloudflareApiKey = "4579160dbcc81998d011e1c545e154510ca92"
-const CloudflareEmail = "fcktitok@protonmail.com"
+const CloudflareId = "****""
+const CloudflareApiKey = "****"
+const CloudflareEmail = "****"
 
 let status
 const dict = new Object()
@@ -38,7 +38,7 @@ app.post("/", function (req, res, next) {
 	const postDataDnsA = {
 		type: "A",
 		name: domain,
-		content: "199.247.16.103",
+		content: "****",
 		ttl: 1,
 		priority: 10,
 		proxied: true,
