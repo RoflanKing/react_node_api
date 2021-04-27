@@ -1,0 +1,60 @@
+{
+  "name": "completed",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^0.1.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "jade": "^1.11.0",
+    "libphonenumber-js": "^1.7.56",
+    "material-ui": "^0.20.2",
+    "node-fetch": "^1.7.3",
+    "react": "^16.13.1",
+    "react-confetti": "^6.0.0",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.3",
+    "react-hook-form": "^6.4.0",
+    "react-phone-number-input": "^3.1.17",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "sweetalert2": "^9.17.1",
+    "xml2json": "^0.12.0",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:server": "node ./server.js",
+    "dev": "concurrently --kill-others \"npm run start:server\" \"npm run start\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+html {
+	position: relative;
+}
+.sending {
+	background-color: rgba(51, 51, 51, 0.8);
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+}
+.sending__item {
+  
+}
+.sending__text{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+
+}
