@@ -8,7 +8,7 @@ const NamecheapApiKey = "****"
 const NamecheapClientIp = "****"
 const NamecheapSetNS = "****"
 const NamecheapNS = "ace.ns.cloudflare.com,liv.ns.cloudflare.com"
-const CloudflareId = "****""
+const CloudflareId = "****"
 const CloudflareApiKey = "****"
 const CloudflareEmail = "****"
 
